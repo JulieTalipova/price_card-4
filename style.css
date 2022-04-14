@@ -1,0 +1,161 @@
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
+    color: #292E5A;
+    background-color: #F3F2FF;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1.8rem;
+}
+
+.box {
+    width: 49.8rem;
+    height: 73.1rem;
+    border-radius: 30px;
+    background-color: white;
+    margin: 26.4rem auto 20.5rem;
+    position: relative;
+    padding: 6rem 5.9rem 6rem 5.4rem;
+}
+
+.box__bg-box {
+    width: 61.8rem; 
+    height: 73.1rem;
+    position: absolute;
+    top: -6rem;
+    left: -6rem;
+    background: linear-gradient(119.36deg, #E9E8FF, #E7F3FF 100%);
+    border-radius: 49px;
+    z-index: -1;
+}
+
+.box__cost {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.box__cost-des {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4.2rem;
+}
+
+.btn, 
+.btn:visited,
+.btn:link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box__btn--big {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #292E5A;
+}
+
+
+.box__btn--buy {
+    background: linear-gradient(96.58deg, #5FF489 0%, #79F4F4 100%);
+    margin-bottom: 1.6rem;
+    padding: 2.4rem 13.75rem;
+}
+
+.box__btn-pickup {
+    padding: 2.4rem 11.25rem;
+    background: linear-gradient(96.58deg, #9CC4FF 0%, #B4A8FF 100%);
+    margin: 4rem 0;
+}
+
+ul {
+    list-style: none;
+    font-weight: 700;
+    margin: 2.4rem 0;
+}
+
+li {
+    position: relative;
+    padding-left: 3.9rem;
+}
+
+li:first-child {
+    margin-bottom: 2rem;
+}
+
+.list-icon {
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    left: 0;
+    top: -.7rem;
+    background-image: url("images/list-icon.svg");
+}
+
+.box__code-container {
+    background: #F3F5FF;
+    padding: 1.6rem;
+}
+
+label {
+    color: black;
+    font-weight: 700;
+}
+
+#box__code-input {
+    padding: 1.85rem 8.7rem 1.85rem 5.2rem;
+    font-size: 1.8rem;
+    border: 1px solid #B3C7E3;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #292E5A;
+    font-weight: 700;
+}
+
+#box__code-input::placeholder {
+    font-size: 1.8rem;
+    color: #292E5A;
+    font-weight: 700;
+}
+
+.box__input-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 1.9rem;
+}
+
+.find-icon {
+    position: absolute;
+    width: 2.8rem;
+    height: 2.8rem;
+    top: 1.6rem;
+    left: 1.6rem;
+    background-image: url("images/find-icon.svg");
+}
+
+.btn-check {
+    padding: 1.85rem 3.2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #292E5A;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.btn-check::placeholder {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
